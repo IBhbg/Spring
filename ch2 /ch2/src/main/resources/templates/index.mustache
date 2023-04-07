@@ -1,0 +1,12 @@
+<h1>Greetings Learning Spring Boot 3.0 fans!</h1>
+<p>learn spring boot by Ivan</p>
+<ul>
+    {{#videos}}
+        <li>{{name}}</li>
+    {{/videos}}
+</ul>
+
+<form action="/new-video" method="post">
+         <input type="text" name="name">
+         <button type="submit">Submit</button>
+</form>
